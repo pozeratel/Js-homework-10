@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/sctyle.css" />
+  </head>
+  <body>
+    <button type="button" id="start-count">Почати відлік</button>
+
+    <div class="box">
+      <div class="el1"></div>
+      <div class="el2"></div>
+      <div class="el3"></div>
+    </div>
+
+    <button type="button" id="startGame">Почати гру</button>
+
+    <button id="gameButton">КЛІК!</button>
+
+    <div id="stats">
+      <p>Час: <span id="time">10</span> сек</p>
+      <p>Очки: <span id="score">0</span></p>
+      <p>Кількість кліків: <span id="clicks">0</span></p>
+    </div>
+
+    <input type="number" id="userTime" placeholder="уведіть будь-яку кількість секунд" /> 
+    <p id="countdown">00</p>
+    <button type="button" id="startCount">натисність на кніпочку</button>
+
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
